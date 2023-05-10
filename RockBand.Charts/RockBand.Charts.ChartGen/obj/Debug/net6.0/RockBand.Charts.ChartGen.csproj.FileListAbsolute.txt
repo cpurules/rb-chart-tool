@@ -1,0 +1,15 @@
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.ChartGen\obj\Debug\net6.0\RockBand.Charts.ChartGen.csproj.AssemblyReference.cache
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.ChartGen\obj\Debug\net6.0\RockBand.Charts.ChartGen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.ChartGen\obj\Debug\net6.0\RockBand.Charts.ChartGen.AssemblyInfoInputs.cache
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.ChartGen\obj\Debug\net6.0\RockBand.Charts.ChartGen.AssemblyInfo.cs
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.ChartGen\obj\Debug\net6.0\RockBand.Charts.ChartGen.csproj.CoreCompileInputs.cache
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.ChartGen\bin\Debug\net6.0\RockBand.Charts.ChartGen.deps.json
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.ChartGen\bin\Debug\net6.0\RockBand.Charts.ChartGen.dll
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.ChartGen\bin\Debug\net6.0\RockBand.Charts.ChartGen.pdb
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.ChartGen\bin\Debug\net6.0\RockBand.Charts.Models.dll
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.ChartGen\bin\Debug\net6.0\RockBand.Charts.Models.pdb
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.ChartGen\obj\Debug\net6.0\RockBand.Charts.ChartGen.csproj.CopyComplete
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.ChartGen\obj\Debug\net6.0\RockBand.Charts.ChartGen.dll
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.ChartGen\obj\Debug\net6.0\refint\RockBand.Charts.ChartGen.dll
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.ChartGen\obj\Debug\net6.0\RockBand.Charts.ChartGen.pdb
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.ChartGen\obj\Debug\net6.0\ref\RockBand.Charts.ChartGen.dll

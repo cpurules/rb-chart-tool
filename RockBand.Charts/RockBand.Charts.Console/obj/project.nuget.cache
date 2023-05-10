@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "2/8HE7uVONmzjO0B19XmI+op6+UvvE7kl2rVcLtPHTdIHFHs+54PGJIMlSLqyyltrQLXogQC7bS/8E+BH76MZw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\CPURules\\Documents\\Projects\\rb-path-tool\\RockBand.Charts\\RockBand.Charts.Console\\RockBand.Charts.ConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CPURules\\.nuget\\packages\\melanchall.drywetmidi\\6.1.4\\melanchall.drywetmidi.6.1.4.nupkg.sha512",
+    "C:\\Users\\CPURules\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\CPURules\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

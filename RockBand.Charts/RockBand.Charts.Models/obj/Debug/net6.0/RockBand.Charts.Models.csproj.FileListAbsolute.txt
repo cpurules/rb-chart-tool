@@ -1,0 +1,12 @@
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.Models\obj\Debug\net6.0\RockBand.Charts.Models.csproj.AssemblyReference.cache
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.Models\obj\Debug\net6.0\RockBand.Charts.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.Models\obj\Debug\net6.0\RockBand.Charts.Models.AssemblyInfoInputs.cache
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.Models\obj\Debug\net6.0\RockBand.Charts.Models.AssemblyInfo.cs
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.Models\obj\Debug\net6.0\RockBand.Charts.Models.csproj.CoreCompileInputs.cache
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.Models\bin\Debug\net6.0\RockBand.Charts.Models.deps.json
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.Models\bin\Debug\net6.0\RockBand.Charts.Models.dll
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.Models\bin\Debug\net6.0\RockBand.Charts.Models.pdb
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.Models\obj\Debug\net6.0\RockBand.Charts.Models.dll
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.Models\obj\Debug\net6.0\refint\RockBand.Charts.Models.dll
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.Models\obj\Debug\net6.0\RockBand.Charts.Models.pdb
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.Models\obj\Debug\net6.0\ref\RockBand.Charts.Models.dll

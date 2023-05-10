@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "V/ArL9ouvd31OEZHi6nYJ+tLwWupMxycsJaEEp/5mxMuKsyd4QKAy62CQivKiC8aEyEtlcEJ4YAwKtQVEO9t2A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\CPURules\\Documents\\Projects\\rb-path-tool\\RockBand.Charts\\RockBand.Charts.ChartGen\\RockBand.Charts.ChartGen.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CPURules\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\CPURules\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

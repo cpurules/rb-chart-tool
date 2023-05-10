@@ -1,0 +1,5 @@
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.Console\obj\Debug\net6.0\RockBand.Charts.Console.csproj.AssemblyReference.cache
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.Console\obj\Debug\net6.0\RockBand.Charts.Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.Console\obj\Debug\net6.0\RockBand.Charts.Console.AssemblyInfoInputs.cache
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.Console\obj\Debug\net6.0\RockBand.Charts.Console.AssemblyInfo.cs
+C:\Users\CPURules\Documents\Projects\rb-path-tool\RockBand.Charts\RockBand.Charts.Console\obj\Debug\net6.0\RockBand.Charts.Console.csproj.CoreCompileInputs.cache

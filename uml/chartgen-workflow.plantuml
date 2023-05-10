@@ -1,0 +1,33 @@
+@startuml "PHP ChartGen workflow"
+
+' For only one (stringed) instrument
+' PX per beat ==> 60
+' Width ==> 1010
+' HOPO = 170
+' BPM = 1
+' Starting X = 25
+' STAFFHEIGHT = 12
+
+(*) -right-> "Calculate image height" as S1
+-right-> "Loop through number of measures" as S1a
+--> "If measure would overlap max width + padding (25)\nThen reset x, increase y by 25, and 45+5*STAFFHEIGHT" as S1b
+note right: consider time signature
+--> "If it is not the last measure, and measure would overlap width + 2x padding\nThen reset x, increase y by 25 and 45+5*STAFFHEIGHT" as S1c
+--> "Otherwise, increase x by measure's width" as S1d
+--> "Increase y by additional 40 + 45 + 5*STAFFHEIGHT" as S1e
+--> "Result: height" as S1final
+-left-> "Set variables for chart generation" as S2
+note left: "Mostly colors"
+--> "Generate header, footer" as S3
+--> "Generate color key" as S4
+--> "Set x, y to starting coord" as S5
+--> "Loop through all measures including index" as S6
+-right-> "Perform calculations for last measure overlap" as S6a
+--> "Draw measure background, then notes, then scores" as S6b
+--> "Increase y by 45 + 4*STAFFHEIGHT" as S6c
+--> "Increase running measure score" as S6d
+--> "Reset x and increase y, or increase x" as S6e
+-left-> "Return image" as S7
+
+
+@enduml

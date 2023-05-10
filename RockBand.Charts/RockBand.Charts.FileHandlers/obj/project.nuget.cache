@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z/vB6JV+z+IXwdsMy/36a1wi9yiSbtq/HZztsAqU+3jAi/kQNCMnpTbvUqk+ot27NZhuGzfxCci1yGCJa0yTdA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\CPURules\\Documents\\Projects\\rb-path-tool\\RockBand.Charts\\RockBand.Charts.FileHandlers\\RockBand.Charts.FileHandlers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CPURules\\.nuget\\packages\\melanchall.drywetmidi\\6.1.4\\melanchall.drywetmidi.6.1.4.nupkg.sha512"
+  ],
+  "logs": []
+}

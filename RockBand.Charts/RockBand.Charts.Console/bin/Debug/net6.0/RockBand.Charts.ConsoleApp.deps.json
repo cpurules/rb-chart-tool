@@ -1,0 +1,130 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "RockBand.Charts.ConsoleApp/1.0.0": {
+        "dependencies": {
+          "RockBand.Charts.ChartGen": "1.0.0",
+          "RockBand.Charts.FileHandlers": "1.0.0",
+          "RockBand.Charts.Models": "1.0.0"
+        },
+        "runtime": {
+          "RockBand.Charts.ConsoleApp.dll": {}
+        }
+      },
+      "Melanchall.DryWetMidi/6.1.4": {
+        "runtime": {
+          "lib/netstandard2.0/Melanchall.DryWetMidi.dll": {
+            "assemblyVersion": "6.1.4.0",
+            "fileVersion": "6.1.4.0"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/7.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "System.Drawing.Common/7.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "RockBand.Charts.ChartGen/1.0.0": {
+        "dependencies": {
+          "RockBand.Charts.Models": "1.0.0",
+          "System.Drawing.Common": "7.0.0"
+        },
+        "runtime": {
+          "RockBand.Charts.ChartGen.dll": {}
+        }
+      },
+      "RockBand.Charts.FileHandlers/1.0.0": {
+        "dependencies": {
+          "Melanchall.DryWetMidi": "6.1.4",
+          "RockBand.Charts.Models": "1.0.0"
+        },
+        "runtime": {
+          "RockBand.Charts.FileHandlers.dll": {}
+        }
+      },
+      "RockBand.Charts.Models/1.0.0": {
+        "runtime": {
+          "RockBand.Charts.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RockBand.Charts.ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Melanchall.DryWetMidi/6.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hnmK8lNYqYpQVFEDpbGKR0BE1z0BE+5ziNLlsnUNxjO8xliHs4Y85T08X8xMWQe+O6jP1t+QxMl0oXuDjhxczA==",
+      "path": "melanchall.drywetmidi/6.1.4",
+      "hashPath": "melanchall.drywetmidi.6.1.4.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2nXPrhdAyAzir0gLl8Yy8S5Mnm/uBSQQA7jEsILOS1MTyS7DbmV1NgViMtvV1sfCD1ebITpNwb1NIinKeJgUVQ==",
+      "path": "microsoft.win32.systemevents/7.0.0",
+      "hashPath": "microsoft.win32.systemevents.7.0.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KIX+oBU38pxkKPxvLcLfIkOV5Ien8ReN78wro7OF5/erwcmortzeFx+iBswlh2Vz6gVne0khocQudGwaO1Ey6A==",
+      "path": "system.drawing.common/7.0.0",
+      "hashPath": "system.drawing.common.7.0.0.nupkg.sha512"
+    },
+    "RockBand.Charts.ChartGen/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RockBand.Charts.FileHandlers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RockBand.Charts.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

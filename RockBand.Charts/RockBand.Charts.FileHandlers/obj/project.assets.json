@@ -1,0 +1,135 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Melanchall.DryWetMidi/6.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Melanchall.DryWetMidi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Melanchall.DryWetMidi.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/Melanchall.DryWetMidi.targets": {}
+        }
+      },
+      "RockBand.Charts.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/RockBand.Charts.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RockBand.Charts.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Melanchall.DryWetMidi/6.1.4": {
+      "sha512": "hnmK8lNYqYpQVFEDpbGKR0BE1z0BE+5ziNLlsnUNxjO8xliHs4Y85T08X8xMWQe+O6jP1t+QxMl0oXuDjhxczA==",
+      "type": "package",
+      "path": "melanchall.drywetmidi/6.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/Melanchall.DryWetMidi.targets",
+        "build/Melanchall_DryWetMidi_Native32.dll",
+        "build/Melanchall_DryWetMidi_Native64.dll",
+        "build/Melanchall_DryWetMidi_Native64.dylib",
+        "icon.png",
+        "lib/net45/Melanchall.DryWetMidi.dll",
+        "lib/net45/Melanchall.DryWetMidi.xml",
+        "lib/netstandard2.0/Melanchall.DryWetMidi.dll",
+        "lib/netstandard2.0/Melanchall.DryWetMidi.xml",
+        "melanchall.drywetmidi.6.1.4.nupkg.sha512",
+        "melanchall.drywetmidi.nuspec"
+      ]
+    },
+    "RockBand.Charts.Models/1.0.0": {
+      "type": "project",
+      "path": "../RockBand.Charts.Models/RockBand.Charts.Models.csproj",
+      "msbuildProject": "../RockBand.Charts.Models/RockBand.Charts.Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Melanchall.DryWetMidi >= 6.1.4",
+      "RockBand.Charts.Models >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\CPURules\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\CPURules\\Documents\\Projects\\rb-path-tool\\RockBand.Charts\\RockBand.Charts.FileHandlers\\RockBand.Charts.FileHandlers.csproj",
+      "projectName": "RockBand.Charts.FileHandlers",
+      "projectPath": "C:\\Users\\CPURules\\Documents\\Projects\\rb-path-tool\\RockBand.Charts\\RockBand.Charts.FileHandlers\\RockBand.Charts.FileHandlers.csproj",
+      "packagesPath": "C:\\Users\\CPURules\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CPURules\\Documents\\Projects\\rb-path-tool\\RockBand.Charts\\RockBand.Charts.FileHandlers\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\CPURules\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\CPURules\\Documents\\Projects\\rb-path-tool\\RockBand.Charts\\RockBand.Charts.Models\\RockBand.Charts.Models.csproj": {
+              "projectPath": "C:\\Users\\CPURules\\Documents\\Projects\\rb-path-tool\\RockBand.Charts\\RockBand.Charts.Models\\RockBand.Charts.Models.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Melanchall.DryWetMidi": {
+            "target": "Package",
+            "version": "[6.1.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

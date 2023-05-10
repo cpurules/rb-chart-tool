@@ -1,0 +1,289 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Melanchall.DryWetMidi/6.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Melanchall.DryWetMidi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Melanchall.DryWetMidi.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Drawing.Common/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "7.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Drawing.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Drawing.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "RockBand.Charts.ChartGen/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "RockBand.Charts.Models": "1.0.0",
+          "System.Drawing.Common": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RockBand.Charts.ChartGen.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RockBand.Charts.ChartGen.dll": {}
+        }
+      },
+      "RockBand.Charts.FileHandlers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Melanchall.DryWetMidi": "6.1.4",
+          "RockBand.Charts.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RockBand.Charts.FileHandlers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RockBand.Charts.FileHandlers.dll": {}
+        }
+      },
+      "RockBand.Charts.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/RockBand.Charts.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RockBand.Charts.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Melanchall.DryWetMidi/6.1.4": {
+      "sha512": "hnmK8lNYqYpQVFEDpbGKR0BE1z0BE+5ziNLlsnUNxjO8xliHs4Y85T08X8xMWQe+O6jP1t+QxMl0oXuDjhxczA==",
+      "type": "package",
+      "path": "melanchall.drywetmidi/6.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/Melanchall.DryWetMidi.targets",
+        "build/Melanchall_DryWetMidi_Native32.dll",
+        "build/Melanchall_DryWetMidi_Native64.dll",
+        "build/Melanchall_DryWetMidi_Native64.dylib",
+        "icon.png",
+        "lib/net45/Melanchall.DryWetMidi.dll",
+        "lib/net45/Melanchall.DryWetMidi.xml",
+        "lib/netstandard2.0/Melanchall.DryWetMidi.dll",
+        "lib/netstandard2.0/Melanchall.DryWetMidi.xml",
+        "melanchall.drywetmidi.6.1.4.nupkg.sha512",
+        "melanchall.drywetmidi.nuspec"
+      ]
+    },
+    "Microsoft.Win32.SystemEvents/7.0.0": {
+      "sha512": "2nXPrhdAyAzir0gLl8Yy8S5Mnm/uBSQQA7jEsILOS1MTyS7DbmV1NgViMtvV1sfCD1ebITpNwb1NIinKeJgUVQ==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Win32.SystemEvents.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Win32.SystemEvents.targets",
+        "lib/net462/Microsoft.Win32.SystemEvents.dll",
+        "lib/net462/Microsoft.Win32.SystemEvents.xml",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/net7.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net7.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.xml",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Drawing.Common/7.0.0": {
+      "sha512": "KIX+oBU38pxkKPxvLcLfIkOV5Ien8ReN78wro7OF5/erwcmortzeFx+iBswlh2Vz6gVne0khocQudGwaO1Ey6A==",
+      "type": "package",
+      "path": "system.drawing.common/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Drawing.Common.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Drawing.Common.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.Drawing.Common.dll",
+        "lib/net462/System.Drawing.Common.xml",
+        "lib/net6.0/System.Drawing.Common.dll",
+        "lib/net6.0/System.Drawing.Common.xml",
+        "lib/net7.0/System.Drawing.Common.dll",
+        "lib/net7.0/System.Drawing.Common.xml",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "runtimes/win/lib/net6.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/net6.0/System.Drawing.Common.xml",
+        "runtimes/win/lib/net7.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/net7.0/System.Drawing.Common.xml",
+        "system.drawing.common.7.0.0.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "RockBand.Charts.ChartGen/1.0.0": {
+      "type": "project",
+      "path": "../RockBand.Charts.ChartGen/RockBand.Charts.ChartGen.csproj",
+      "msbuildProject": "../RockBand.Charts.ChartGen/RockBand.Charts.ChartGen.csproj"
+    },
+    "RockBand.Charts.FileHandlers/1.0.0": {
+      "type": "project",
+      "path": "../RockBand.Charts.FileHandlers/RockBand.Charts.FileHandlers.csproj",
+      "msbuildProject": "../RockBand.Charts.FileHandlers/RockBand.Charts.FileHandlers.csproj"
+    },
+    "RockBand.Charts.Models/1.0.0": {
+      "type": "project",
+      "path": "../RockBand.Charts.Models/RockBand.Charts.Models.csproj",
+      "msbuildProject": "../RockBand.Charts.Models/RockBand.Charts.Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "RockBand.Charts.ChartGen >= 1.0.0",
+      "RockBand.Charts.FileHandlers >= 1.0.0",
+      "RockBand.Charts.Models >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\CPURules\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\CPURules\\Documents\\Projects\\rb-path-tool\\RockBand.Charts\\RockBand.Charts.Console\\RockBand.Charts.ConsoleApp.csproj",
+      "projectName": "RockBand.Charts.ConsoleApp",
+      "projectPath": "C:\\Users\\CPURules\\Documents\\Projects\\rb-path-tool\\RockBand.Charts\\RockBand.Charts.Console\\RockBand.Charts.ConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\CPURules\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CPURules\\Documents\\Projects\\rb-path-tool\\RockBand.Charts\\RockBand.Charts.Console\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\CPURules\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\CPURules\\Documents\\Projects\\rb-path-tool\\RockBand.Charts\\RockBand.Charts.ChartGen\\RockBand.Charts.ChartGen.csproj": {
+              "projectPath": "C:\\Users\\CPURules\\Documents\\Projects\\rb-path-tool\\RockBand.Charts\\RockBand.Charts.ChartGen\\RockBand.Charts.ChartGen.csproj"
+            },
+            "C:\\Users\\CPURules\\Documents\\Projects\\rb-path-tool\\RockBand.Charts\\RockBand.Charts.FileHandlers\\RockBand.Charts.FileHandlers.csproj": {
+              "projectPath": "C:\\Users\\CPURules\\Documents\\Projects\\rb-path-tool\\RockBand.Charts\\RockBand.Charts.FileHandlers\\RockBand.Charts.FileHandlers.csproj"
+            },
+            "C:\\Users\\CPURules\\Documents\\Projects\\rb-path-tool\\RockBand.Charts\\RockBand.Charts.Models\\RockBand.Charts.Models.csproj": {
+              "projectPath": "C:\\Users\\CPURules\\Documents\\Projects\\rb-path-tool\\RockBand.Charts\\RockBand.Charts.Models\\RockBand.Charts.Models.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

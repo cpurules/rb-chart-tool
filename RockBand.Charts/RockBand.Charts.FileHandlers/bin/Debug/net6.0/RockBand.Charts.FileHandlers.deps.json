@@ -1,0 +1,52 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "RockBand.Charts.FileHandlers/1.0.0": {
+        "dependencies": {
+          "Melanchall.DryWetMidi": "6.1.4",
+          "RockBand.Charts.Models": "1.0.0"
+        },
+        "runtime": {
+          "RockBand.Charts.FileHandlers.dll": {}
+        }
+      },
+      "Melanchall.DryWetMidi/6.1.4": {
+        "runtime": {
+          "lib/netstandard2.0/Melanchall.DryWetMidi.dll": {
+            "assemblyVersion": "6.1.4.0",
+            "fileVersion": "6.1.4.0"
+          }
+        }
+      },
+      "RockBand.Charts.Models/1.0.0": {
+        "runtime": {
+          "RockBand.Charts.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RockBand.Charts.FileHandlers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Melanchall.DryWetMidi/6.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hnmK8lNYqYpQVFEDpbGKR0BE1z0BE+5ziNLlsnUNxjO8xliHs4Y85T08X8xMWQe+O6jP1t+QxMl0oXuDjhxczA==",
+      "path": "melanchall.drywetmidi/6.1.4",
+      "hashPath": "melanchall.drywetmidi.6.1.4.nupkg.sha512"
+    },
+    "RockBand.Charts.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
